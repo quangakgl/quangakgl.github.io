@@ -6,6 +6,8 @@
 #ct1{
 	text-indent:70px;
 }
+#asd {
+text-indent:100px}
 b::after{
 	content: " VND";
 }
