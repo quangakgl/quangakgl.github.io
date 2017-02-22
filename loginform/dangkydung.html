@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Đăng ký thành công</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<h1>ĐĂNG KÝ THÀNH CÔNG</h1>
+		<h2> Thông tin tài khoản </h2>
+
+		<p> Họ tên: <b id="name">  </b></p>
+		<p> Ngày tháng năm sinh: <b id="birthday">  </b></p>
+		<p> Giới tính: <b id="gender"> </b></p>
+		<p> Địa chỉ: <b id="address">  </b></p>
+		<p> Số điện thoại: <b id="phone">  </b></p>
+		<p> Email: <b id="email">  </b></p>
+		<p> Password: <b id="password">  </b></p>
+
+		<script>
+
+			function Info(variable)
+			{
+				var query = decodeURIComponent(window.location.search.substring(1));
+				var vars = query.split("&");
+				for (var i=0;i<vars.length;i++) {
+					var pair = vars[i].split("=");
+					if(pair[0] == variable){return pair[1]};
+				}
+				return(false);
+			}
+
+			var a = Info("name");
+			document.getElementById("name").innerText = a.split('+').join(' ');
+
+			var b = Info("day");
+			var c = Info("month");
+			var d = Info("year");
+			document.getElementById("birthday").innerText = b + "/" + c + "/" + d ;
+
+			var e = Info("gender");
+			document.getElementById("gender").innerText = e;
+
+			var f = Info("address");
+			document.getElementById("address").innerText = f.split('+').join(' ');
+
+			var g = Info("phone");
+			document.getElementById("phone").innerText = g.split('+').join(' ');
+
+			var h = Info("email");
+			document.getElementById("email").innerText = h.split('+').join(' ');
+
+			var k = Info("password");
+			document.getElementById("password").innerText = k.split('+').join(' ');
+
+		</script>
+
+</body>
+</html>
