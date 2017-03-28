@@ -1,0 +1,50 @@
+.products-grid li.item {
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.col-item {
+	position: relative;
+	margin-bottom: 20px;
+}
+.col-item {
+	box-shadow: 0 0 5px #666;
+	-moz-box-shadow: 0 0 5px #666;
+	-ms-box-shadow: 0 0 5px #666;
+	-webkit-box-shadow: 0 0 5px #666;
+	-o-box-shadow: 0 0 5px #666;
+}
+
+.item-type-collection {
+	position: absolute;
+	z-index: 99999;
+	bottom: 40px;
+	right: 0;
+	background: rgba(250, 250, 250, 0.77);
+	padding: 5px 10px;
+	font-size: 13px;
+}
+
+.box_why h4 {
+	padding: 10px 0px;
+	background: #305CB7;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 16px;
+}
+
+
+.main_box_why ul li {
+	padding-left: 30px;
+	background: url(../img/tick-icon.png) no-repeat;
+	line-height: 30px;
+}
+
+.product-image img {
+	width: 100%;
+}
+
+.special-price .price {
+	color: #8b0304;
+}
+

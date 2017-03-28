@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quy trình sản XUẤT</title>
+	<meta charset="utf-8">
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header class="container-fluid">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<a id="banner" href="index.html"><img src="img/logo.png"></a><!--ảnh góc trái-->     
+				<ul id="login" class="nav navbar-nav navbar-right register">
+					<form class="navbar-form navbar-left">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Tìm Kiếm">
+						</div>
+						<button type="submit" class="btn btn-default">Tìm</button>
+					</form>
+					<li> <a data-toggle="modal" href="#registerModal"> <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Đăng kí</a></li>
+					<li><a data-toggle="modal" href="#loginModal"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Đăng nhập</a></li>
+
+				</ul>
+
+			</div><!-- /.container-fluid -->
+		</nav>
+
+		<div id="registerModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="myModalLabel">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						<h1 class="text-center">ĐĂNG KÝ TÀI KHOẢN</h1>
+					</div>
+					<div class="modal-body">
+						<form class="form col-md-12 center-block">
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" placeholder="Tên đăng nhập">
+							</div>
+							
+							<div class="form-group">
+								<input type="password" class="form-control input-lg" placeholder="Mật khẩu">
+							</div>
+
+							<div class="form-group">
+								<input type="password" class="form-control input-lg" placeholder="Xác nhận mật khẩu">
+							</div>
+
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" placeholder="Email">
+							</div>
+
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" placeholder="Số điện thoại">
+							</div>
+
+							<div class="form-group">
+								<button class="btn btn-primary btn-lg btn-block">Đăng ký</button>						
+							</div>
+
+						</form>
+					</div>
+					<div class="modal-footer">
+						<div class="col-md-12">
+						</div>  
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="loginModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="myModalLabel">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						<h1 class="text-center">ĐĂNG NHẬP</h1>
+					</div>
+					<div class="modal-body">
+						<form class="form col-md-12 center-block">
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" placeholder="Tên đăng nhập">
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-control input-lg" placeholder="Mật khẩu">
+							</div>
+							<div class="form-group">
+								<button class="btn btn-primary btn-lg btn-block">Đăng nhập</button>								
+							</div>
+
+							<div class="modal-footer">
+								<a href="#" class="dk">Đăng ký</a><br>
+								<a href="#" class="dk">Quên mật khẩu?</a>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<div class="col-md-12">
+						</div>  
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid"" id="slide">
+			<br>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="img/1.jpg" alt="Chania" width="600" height="300">
+					</div>
+
+					<div class="item">
+						<img src="img/4.jpg" alt="Chania" width="600" height="300">
+					</div>
+
+					<div class="item">
+						<img src="img/3.jpg" alt="Flower" width="600" height="300">
+					</div>
+
+					<div class="item">
+						<img src="img/2.jpg" alt="Flower" width="600" height="300">
+					</div>
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid" id="list">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span> 
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav nav-pills nav-justified" id="menu-center">
+						<li><a href="index.html">Trang chủ</a></li>
+						<li><a href="gioithieu.html">Giới thiệu</a></li>
+						<li><a href="dulich.html">Du lịch Bình Định</a></li> 
+						<li><a href="sanpham.html">Sản phẩm rượu bầu đá</a></li>
+						<li><a href="quytrinh.html">Quy trình sản xuất rượu</a></li>
+						<li><a href="#">Tin tức</a></li>
+						<li><a href="lienhe.html">Liên hệ</a></li> 
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<section class="container">
+		<div class="row">
+			<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
+				<h2 class="text-center">QUY TRÌNH SẢN XUẤT RƯỢU BẦU ĐÁ</h2>
+				<img class="center-block img-responsive" src="img/quytrinh.gif">
+				<p class="text-center">Sơ đồ quy trình nấu rượu gạo bầu đá</p>
+				<li style="color: red;">* Chú ý: Để sản xuất ra loại rựu đặc sản này, người ta cần gạo lúa thơm, men rượu ngon và mạch nước ngầm từ làng Bàu Đá mà không nơi nào có được. Nhiều người trong làng mang bí quyết làm rượu đi vùng khác làm nhưng không được ngon do không có nguồn nước giống làng Bầu Đá</li>
+				<img class="center-block img-responsive" src="img/gieng.jpg">
+				<p class="text-center">Rượu được nấu từ nước giếng làng Bầu Đá</p>
+				<li style="text-indent: 25px;"><strong> 1.Chọn gạo để làm rượu</strong></li>
+				<li>Rượu Bầu đá được lên men hoàn toàn từ gạo nếp ngon. Gạo nếp được dùng làm rượu vẫn còn nguyên lớp vỏ lụa và lớp cám nên rất giàu chất dinh dưỡng, đặc biệt là protein, lipid, các nguyên tố vi lượng và vitamin (nhất là vitamin B1). Ngoài tác dụng bồi bổ cơ thể, rượu nếp còn giúp ăn ngon miệng, kích thích tiêu hóa.</li>
+				<li style="text-indent: 25px;"><strong> 1.Chọn men để làm rượu</strong></li>
+				<li>Men sử dụng làm rượu nếp cũng được làm từ nhiều loại thảo dược có đặc tính cay, nóng. Về cơ bản men rượu là một hỗn hợp gồm các vi sinh vật có khả năng thủy phân tinh bột thành đường và lên men dịch đường thành rượu. Với mỗi địa phương, lại có một bí quyết riêng để chế biến và sử dụng men rượu khác nhau để tạo ra rượu nếp ngon của riêng mình.</li>
+				<li style="text-indent: 25px;"><strong> 3. Cách chế biến.</strong></li>
+				<li>Để cho ra được những giọt rượu nếp thơm ngon quả thực không hề đơn giản chút nào, nó đòi hòi phải có sự công phu và chau chuốt. Gạo nếp sau khi được nấu chín, làm nguội thì rắc bột men và đem đi ủ. Trong quá trính ủ nấm mốc phát triển trên cơm gạo nếp và tự tạo cho khối gạo ủ mùi thơm đặc trưng, hấp dẫn. Đặc biệt để có được rượu nếp ngon và vẫn giữ được hương thơm, khi chưng cất không sử dụng tháp cao cất cồn mà dùng thiết bị chưng cất rượu để thu hoạch, lúc này rượu nếp đạt khoảng 40-50 độ rượu. Chất lượng rượu ngon hay không còn phụ thuộc vào điều kiện thời tiết, đòi hòi người làm rượu phải biết đánh giá tình hình thời tiết trong suốt quá trình chế biến rượu nếp.</li>
+				<li><strong>Giai đoạn nấu cơm</strong></li>
+				<li>– Khi đã chọn được loại gạo ngon để nấu rượu chúng ta cho gạo vào ngâm nước lạnh khoảng 4-6h sau đó cho nào nồi đồ như đồ xôi.</li>
+				<li>– Khi cơm chín bới cơm ra nong, điều quan trọng các bạn lưu ý là phải trải đều cơm ra mặt long tránh để dồn cục vì như thế khi rắc men sẽ không được đều chỗ có chỗ không. may san xuat da vien Sau khi dỡ cơm xong chúng ta đợi vài phút cho tới khi sờ tay thấy cơm còn ấm ấm là tiến hành rắc men.</li>
+				<li><strong>Giai đoạn chuẩn bị men rượu</strong></li>
+				<li>Trong món cơm rượu không thể thiếu men vì men chính là chất xúc tác giúp cơm có thể dậy men để tạo ra mùi thơm và vị ngọt cho cơm.</li>
+				<li>– Khi chọn men làm cơm hay làm rượu các bạn tuyệt đối không sử dụng men tàu vì khi ăn (uống) sẽ dẫn đến tình trạng nhức đầu, ngộ độc… chúng ta chọn mua loại men gạo được người ta làm thủ công từ bột gạo cộng với nhiều vị thuốc bắc (Men dạng cục màu trắng tròn to bằng miệng cốc, hơi phồng lên như cái bánh giày), men cũng rẻ thôi nếu làm 5kg gạo các bạn chỉ mua 3-4k men là thoải mái, nếu quen nhà ai nấu rượu thị xin cũng được.</li>
+				<li>– Liều lượng men: thường là 1 lạng men / 10kg gạo, như vậy nếu các bạn nấu 5kg gạo thì chỉ cho 1/2 lạng men là vừa.</li>
+				<li>– Sau khi cân đủ lượng men các bạn cho vào cối dã men thành bột mịn càng nhỏ càng tốt, nếu có máy xay sinh tố thì cho men vào quay một lúc là nhanh nhất.</li>
+				<li><strong>Giai đoạn rắc men</strong></li>
+				<img style="width: 56%;" class="center-block img-responsive" src="img/racmen.jpg">
+				<li>Các bạn lưu ý trước khi rắc men phải kiểm tra cơm còn nóng không nếu rắc men khi cơm còn nóng thì sẽ làm men bị chết, còn nếu rắc khi cơm quá nguội thì men cũng không ăn được cơm sẽ làm hỏng cơm. Nên tốt nhất là rắc khi cơm còn ấm tay.</li>
+				<li>Các bạn chia men thành 2 phần một phần rắc đều mặt trước đảm bảo men phủ kín bề mặt cơm, sau đó lật mặt dưới lên rắc nốt nửa men còn lại. Do cơm nếp rất dính nếu các bạn trộn thì men chắc chắn sẽ không đều bằng cách mình nói trên.</li>
+				<li><strong>Giai đoạn ủ cơm</strong></li>
+				<img style="width: 56%;" class="center-block img-responsive" src="img/uruou.jpg">
+				<li>– Sau khi rắc men xong các bạn cho cơm vào chum hay vào hũ bằng đất lung hay thủy tinh để ủ cơm nhưng chỉ cho đầy khoảng 2/3 dung tích hũ, đậy kín. Sau 3-4 ngày hũ cơm rượu sẽ tự dậy nước và mùi thơm rượu.</li>
+				<li>– Các bạn lưu ý khi ủ cơm phải đảm bảo giữ ấm cho hũ cơm vào mùa đông. Tùy thời tiết, trời càng nóng cơm rượu càng mau được. Ở vùng cao, nhiệt độ thấp người ta thường để hũ cơm rượu gần bếp để ủ nóng. Cơm rượu sẽ đạt đến nồng độ rượu cao nhất trong một ngày nhất định vào khoảng ngày thứ năm hay thứ sáu, tùy chất lượng men.</li>
+				<li><strong>Giai đoạn chưng cất rượu</strong></li>
+				<img style="width: 56%;" class="center-block img-responsive" src="img/chungcat.jpg">
+				<li>– Ủ rượu khoảng 1 tuần khi ấy cơm nếp đã lên men và sẽ ra nước cốt, chúng ta múc cả cốt cả cái cho vào nồi và tiến hành trưng cất rượu.</li>
+				<li>– Nồi dùng để nấu rượu thường làm bằng đồng hoặc đất nung là tốt nhất, trưng cất bằng các chất liệu khác rượu sẽ không ngon hoặc có mùi lạ rất khó uống.</li>
+				<li>– Khi nấu chúng ta lưu ý nồi rượu sôi rồi thì phải giảm bếp cho nhỏ lửa đi để rượu chảy ra từ từ, nếu đun bếp quá to sẽ làm phì rượu khi uống sẽ có mùi khét rất khó uống.</li>
+				<li>– Nếu bạn ăn cơm rượu nếp thì chỉ để đến khi men ngấu, mặt cơm hơi ướt bóng lên là ăn được (tầm 3 ngày). Nếu làm nhiều thì tốt nhất là cho vào tủ lạnh để ăn dần. Cơm rượu trộn với sữa chua không còn gì tuyệt hơn, tốt cho tiêu hóa, đẹp da, bổ máu. Người suy nhược do hậu sản cách ngày ăn một lòng đỏ trứng đánh với cốt rượu, tốt hơn thang thuốc.</li>
+			</div>
+		</div>
+	</section>
+
+	<section class="container-fluid about-us">
+		<div class="row">
+			<div class="container-fluid about-wrap">
+				<div class="row">
+					
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<div class="video wow fadeInRight">
+							<div class="about-title">
+								<h3>rượu bầu đá</h3>
+							</div>
+							<div class="video-detail">
+								<div id="video1">
+									<iframe width="100%" src="https://www.youtube.com/embed/_lqpUvBGhMY" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div id="video2">
+									<iframe width="100%" src="https://www.youtube.com/embed/rwc0PH4jOJk" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div id="video3">
+									<iframe width="100%" src="https://www.youtube.com/embed/c9ZtTxKvR-M" frameborder="0" allowfullscreen></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<div class="facebook wow fadeInRight">
+							<div class="about-title">
+								<h3>biển quy nhơn</h3>
+							</div>
+							<div class="facebook-detail">
+								<iframe width="100%" height="310" src="https://www.youtube.com/embed/dP7kqnwT1xY" frameborder="0" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<div class="map wow fadeInRight">
+							<div class="about-title">
+								<h3>map</h3>
+							</div>
+							<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:300px;width:500px;'><div id='gmap_canvas' style='height:300px;width:500px;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="http://add-link-exchange.com/">add your link for free</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(13.7829673,109.21966339999994),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(13.7829673,109.21966339999994)});infowindow = new google.maps.InfoWindow({content:'<strong>Title</strong><br>Quy Nhơn,Bình Định,Việt Nam<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="container-fluid footer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12 col-xs-12 col-sm-12">
+					<div class="col-md-5">
+						<h4>Địa chỉ</h4>
+						<div class="chat-block">
+							<div class="address">
+								<a href="#">
+									<address> <span class="fa fa-map-marker"></span> Thôn Cù Lâm Bắc, xã Nhơn Lộc, thị xã An Nhơn, tỉnh Bình Định</address>
+									<address> <span class="fa fa-map-marker"></span> Đường An Dương Vương, Nguyễn Văn Cừ, Tp. Qui Nhơn, Bình Định</address>
+								</a>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<h4>Contact</h4>
+						<div class="contact">
+							<ul class="list-unstyled nav-list">
+								<li><a href="#"><span class="fa fa-phone"></span> Mr Quang: 098.5833.774</a></li>
+								<li><a href="#"><span class="fa fa-envelope"></span> quangprolathe@gmail.com</a></li>
+								<li><a href="#"><span class="fa fa-phone"></span> Mrs Thương: 094.5833.833</a></li>
+								<li><a href="#"><span class="fa fa-envelope"></span> thuong201293@gmail.com</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-3">
+						<h4>Về chúng tôi</h4>
+						<div class="we">
+							<ul class="list-unstyled nav-list">
+								<li><a href="#">Du lịch</a></li>
+								<li><a href="#">Rượu bàu đá</a></li>
+								<li><a href="#">Quy trinh sản xuất</a></li>
+								<li><a href="#">Liên hệ</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<span class="waves-effect"  id="btn-to-top">
+		<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+	</span>
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/quang.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
+</body>
+</html>

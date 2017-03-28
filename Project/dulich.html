@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Du lịch Bình Định</title>
+	<meta charset="utf-8">
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/dulich.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid" id="login">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				
+				<a id="banner" href="dulich.html"><img src="img/logo2.png"></a><!--ảnh góc trái-->     
+				<ul id="register" class="nav navbar-nav navbar-right register ">
+					<form class="navbar-form navbar-left">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Tìm Kiếm">
+						</div>
+						<button type="submit" class="btn btn-default">Tìm</button>
+					</form>
+					<li> <a data-toggle="modal" href="#registerModal"> <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Đăng kí</a></li>
+					<li><a data-toggle="modal" href="#loginModal"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Đăng nhập</a></li>
+
+				</ul>
+
+			</div><!-- /.container-fluid -->
+		</nav>
+
+		<div id="registerModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="myModalLabel">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						<h1 class="text-center">ĐĂNG KÝ TÀI KHOẢN</h1>
+					</div>
+					<div class="modal-body">
+						<form class="form col-md-12 center-block">
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" placeholder="Tên đăng nhập">
+							</div>
+							
+							<div class="form-group">
+								<input type="password" class="form-control input-lg" placeholder="Mật khẩu">
+							</div>
+
+							<div class="form-group">
+								<input type="password" class="form-control input-lg" placeholder="Xác nhận mật khẩu">
+							</div>
+
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" placeholder="Email">
+							</div>
+
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" placeholder="Số điện thoại">
+							</div>
+
+							<div class="form-group">
+								<button class="btn btn-primary btn-lg btn-block">Đăng ký</button>						
+							</div>
+
+						</form>
+					</div>
+					<div class="modal-footer">
+						<div class="col-md-12">
+						</div>  
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="loginModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="myModalLabel">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						<h1 class="text-center">ĐĂNG NHẬP</h1>
+					</div>
+					<div class="modal-body">
+						<form class="form col-md-12 center-block">
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" placeholder="Tên đăng nhập">
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-control input-lg" placeholder="Mật khẩu">
+							</div>
+							<div class="form-group">
+								<button class="btn btn-primary btn-lg btn-block">Đăng nhập</button>								
+							</div>
+
+							<div class="modal-footer">
+								<a href="#" class="dk">Đăng ký</a><br>
+								<a href="#" class="dk">Quên mật khẩu?</a>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<div class="col-md-12">
+						</div>  
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid"" id="slide">
+			<br>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="img/10.jpg" alt="Chania" width="600" height="300">
+					</div>
+
+					<div class="item">
+						<img src="img/11.jpg" alt="Chania" width="600" height="300">
+					</div>
+
+					<div class="item">
+						<img src="img/12.jpg" alt="Flower" width="600" height="300">
+					</div>
+
+					<div class="item">
+						<img src="img/13.jpg" alt="Flower" width="600" height="300">
+					</div>
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+
+		<nav class="navbar navbar-default">
+			<div class="container-fluid" id="list">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span> 
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav nav-pills nav-justified" id="menu-center">
+						<li><a href="index.html">Trang chủ</a></li>
+						<li><a href="gioithieu.html">Giới thiệu</a></li>
+						<li><a href="dulich.html">Du lịch Bình Định</a></li> 
+						<li><a href="sanpham.html">Sản phẩm rượu bầu đá</a></li>
+						<li><a href="quytrinh.html">Quy trình sản xuất rượu</a></li>
+						<li><a href="#">Tin tức</a></li>
+						<li><a href="lienhe.html">Liên hệ</a></li> 
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<section class="container bienquynhon">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 class="text-center">DU LỊCH BIỂN QUY NHƠN</h2>
+				<div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12 wow bounceInUp">
+					<div class="col-item">
+						<div class="images-container"> 
+							<a class="product-image" href="chitietdulich.html"> 
+								<img src="img/beach1.jpg" class="img-responsive"/> 
+							</a>
+							<div class="item-type-collection">2 ngày 1 đêm</div>
+						</div>
+						<div class="info">
+							<div class="info-inner-collection">
+								<div class="item-content">
+									<div class="item-title"> <a href="#">Bãi tắm Quy Nhơn(2 ngày / 1 đêm) </a></div>
+									<div class="item-vendor-collection">Khởi hành: Hàng ngày</div>
+									<div class="price-box-collection">
+										<p class="special-price"> <span class="price">800.000₫</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12 wow bounceInUp">
+					<div class="col-item">
+						<div class="images-container"> 
+							<a class="product-image" href="chitietdulich.html"> 
+								<img src="img/beach2.jpg" class="img-responsive"/> 
+							</a>
+							<div class="item-type-collection">3 ngày 2 đêm</div>
+						</div>
+						<div class="info">
+							<div class="info-inner-collection">
+								<div class="item-content">
+									<div class="item-title"> <a href="#">Bãi tắm hoàng hậu(3 ngày / 2 đêm) </a></div>
+									<div class="item-vendor-collection">Khởi hành: Hàng ngày</div>
+									<div class="price-box-collection">
+										<p class="special-price"> <span class="price">1.600.000₫</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12 wow bounceInUp">
+					<div class="col-item">
+						<div class="images-container"> 
+							<a class="product-image" href="chitietdulich.html"> 
+								<img src="img/beach3.jpg" class="img-responsive"/> 
+							</a>
+							<div class="item-type-collection">4 ngày 3 đêm</div>
+						</div>
+						<div class="info">
+							<div class="info-inner-collection">
+								<div class="item-content">
+									<div class="item-title"> <a href="#">Bãi đại(4 ngày / 3 đêm) </a></div>
+									<div class="item-vendor-collection">Khởi hành: Hàng ngày</div>
+									<div class="price-box-collection">
+										<p class="special-price"> <span class="price">2.000.000₫</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12 wow bounceInUp">
+					<div class="col-item">
+						<div class="images-container"> 
+							<a class="product-image" href="chitietdulich.html"> 
+								<img src="img/beach4.jpg" class="img-responsive"/> 
+							</a>
+							<div class="item-type-collection">5 ngày 4 đêm</div>
+						</div>
+						<div class="info">
+							<div class="info-inner-collection">
+								<div class="item-content">
+									<div class="item-title"> <a href="chitietdulich.html">Bãi xép(5 ngày / 4 đêm) </a></div>
+									<div class="item-vendor-collection">Khởi hành: Hàng ngày</div>
+									<div class="price-box-collection">
+										<p class="special-price"> <span class="price">2.400.000₫</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12 wow bounceInUp">
+					<div class="col-item">
+						<div class="images-container"> 
+							<a class="product-image" href="chitietdulich.html"> 
+								<img src="img/beach5.jpg" class="img-responsive"/> 
+							</a>
+							<div class="item-type-collection">2 ngày 1 đêm</div>
+						</div>
+						<div class="info">
+							<div class="info-inner-collection">
+								<div class="item-content">
+									<div class="item-title"> <a href="#">Bãi tắm Eo Gió(2 ngày / 1 đêm) </a></div>
+									<div class="item-vendor-collection">Khởi hành: Hàng ngày</div>
+									<div class="price-box-collection">
+										<p class="special-price"> <span class="price">800.000₫</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12 wow bounceInUp">
+					<div class="col-item">
+						<div class="images-container"> 
+							<a class="product-image" href="chitietdulich.html"> 
+								<img src="img/beach6.jpg" class="img-responsive"/> 
+							</a>
+							<div class="item-type-collection">3 ngày 2 đêm</div>
+						</div>
+						<div class="info">
+							<div class="info-inner-collection">
+								<div class="item-content">
+									<div class="item-title"> <a href="#">Bãi tắm Hòn Khô(3 ngày / 2 đêm) </a></div>
+									<div class="item-vendor-collection">Khởi hành: Hàng ngày</div>
+									<div class="price-box-collection">
+										<p class="special-price"> <span class="price">1.600.000₫</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12 wow bounceInUp">
+					<div class="col-item">
+						<div class="images-container"> 
+							<a class="product-image" href="chitietdulich.html"> 
+								<img src="img/beach7.jpg" class="img-responsive"/> 
+							</a>
+							<div class="item-type-collection">4 ngày 3 đêm</div>
+						</div>
+						<div class="info">
+							<div class="info-inner-collection">
+								<div class="item-content">
+									<div class="item-title"> <a href="#">Bãi Vĩnh Hội(4 ngày / 3 đêm) </a></div>
+									<div class="item-vendor-collection">Khởi hành: Hàng ngày</div>
+									<div class="price-box-collection">
+										<p class="special-price"> <span class="price">2.000.000₫</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12 wow bounceInUp">
+					<div class="col-item">
+						<div class="images-container"> 
+							<a class="product-image" href="chitietdulich.html"> 
+								<img src="img/beach8.jpg" class="img-responsive"/> 
+							</a>
+							<div class="item-type-collection">5 ngày 4 đêm</div>
+						</div>
+						<div class="info">
+							<div class="info-inner-collection">
+								<div class="item-content">
+									<div class="item-title"> <a href="#">Bãi Lộ Diêu(5 ngày / 4 đêm) </a></div>
+									<div class="item-vendor-collection">Khởi hành: Hàng ngày</div>
+									<div class="price-box-collection">
+										<p class="special-price"> <span class="price">2.400.000₫</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12 wow bounceInUp">
+					<div class="col-item">
+						<div class="images-container"> 
+							<a class="product-image" href="chitietdulich.html"> 
+								<img src="img/beach9.jpg" class="img-responsive"/> 
+							</a>
+							<div class="item-type-collection">2 ngày 1 đêm</div>
+						</div>
+						<div class="info">
+							<div class="info-inner-collection">
+								<div class="item-content">
+									<div class="item-title"> <a href="chitietdulich.html">Bãi Bàu(2 ngày / 1 đêm) </a></div>
+									<div class="item-vendor-collection">Khởi hành: Hàng ngày</div>
+									<div class="price-box-collection">
+										<p class="special-price"> <span class="price">800.000₫</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="container-fluid about-us">
+		<div class="row">
+			<div class="container-fluid about-wrap">
+				<div class="row">
+					
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<div class="video wow fadeInRight">
+							<div class="about-title">
+								<h3>rượu bầu đá</h3>
+							</div>
+							<div class="video-detail">
+								<div id="video1">
+									<iframe width="100%" src="https://www.youtube.com/embed/_lqpUvBGhMY" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div id="video2">
+									<iframe width="100%" src="https://www.youtube.com/embed/rwc0PH4jOJk" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div id="video3">
+									<iframe width="100%" src="https://www.youtube.com/embed/c9ZtTxKvR-M" frameborder="0" allowfullscreen></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<div class="facebook wow fadeInRight">
+							<div class="about-title">
+								<h3>biển quy nhơn</h3>
+							</div>
+							<div class="facebook-detail">
+								<iframe width="100%" height="310" src="https://www.youtube.com/embed/dP7kqnwT1xY" frameborder="0" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<div class="map wow fadeInRight">
+							<div class="about-title">
+								<h3>map</h3>
+							</div>
+							<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:300px;width:500px;'><div id='gmap_canvas' style='height:300px;width:500px;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="http://add-link-exchange.com/">add your link for free</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(13.7829673,109.21966339999994),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(13.7829673,109.21966339999994)});infowindow = new google.maps.InfoWindow({content:'<strong>Title</strong><br>Quy Nhơn,Bình Định,Việt Nam<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="container-fluid footer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12 col-xs-12 col-sm-12">
+					<div class="col-md-5">
+						<h4>Địa chỉ</h4>
+						<div class="chat-block">
+							<div class="address">
+								<a href="#">
+									<address> <span class="fa fa-map-marker"></span> Thôn Cù Lâm Bắc, xã Nhơn Lộc, thị xã An Nhơn, tỉnh Bình Định</address>
+									<address> <span class="fa fa-map-marker"></span> Đường An Dương Vương, Nguyễn Văn Cừ, Tp. Qui Nhơn, Bình Định</address>
+								</a>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<h4>Contact</h4>
+						<div class="contact">
+							<ul class="list-unstyled nav-list">
+								<li><a href="#"><span class="fa fa-phone"></span> Mr Quang: 098.5833.774</a></li>
+								<li><a href="#"><span class="fa fa-envelope"></span> quangprolathe@gmail.com</a></li>
+								<li><a href="#"><span class="fa fa-phone"></span> Mrs Thương: 094.5833.833</a></li>
+								<li><a href="#"><span class="fa fa-envelope"></span> thuong201293@gmail.com</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-3">
+						<h4>Về chúng tôi</h4>
+						<div class="we">
+							<ul class="list-unstyled nav-list">
+								<li><a href="#">Du lịch</a></li>
+								<li><a href="#">Rượu bàu đá</a></li>
+								<li><a href="#">Quy trinh sản xuất</a></li>
+								<li><a href="#">Liên hệ</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<span class="waves-effect"  id="btn-to-top">
+		<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+	</span>
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/quang.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
+</body>
+</html>

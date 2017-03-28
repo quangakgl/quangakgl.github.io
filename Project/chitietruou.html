@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chi tiết rượu bầu đá</title>
+	<meta charset="utf-8">
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/khuyenmai.css">
+</head>
+<body>
+	<header class="container-fluid">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				
+				<a id="banner" href="index.html"><img src="img/logo.png"></a><!--ảnh góc trái-->     
+				<ul id="login" class="nav navbar-nav navbar-right register">
+					<form class="navbar-form navbar-left">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Tìm Kiếm">
+						</div>
+						<button type="submit" class="btn btn-default">Tìm</button>
+					</form>
+					<li> <a data-toggle="modal" href="#registerModal"> <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Đăng kí</a></li>
+					<li><a data-toggle="modal" href="#loginModal"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Đăng nhập</a></li>
+
+				</ul>
+
+			</div><!-- /.container-fluid -->
+		</nav>
+
+		<div id="registerModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="myModalLabel">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						<h1 class="text-center">ĐĂNG KÝ TÀI KHOẢN</h1>
+					</div>
+					<div class="modal-body">
+						<form class="form col-md-12 center-block">
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" placeholder="Tên đăng nhập">
+							</div>
+							
+							<div class="form-group">
+								<input type="password" class="form-control input-lg" placeholder="Mật khẩu">
+							</div>
+
+							<div class="form-group">
+								<input type="password" class="form-control input-lg" placeholder="Xác nhận mật khẩu">
+							</div>
+
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" placeholder="Email">
+							</div>
+
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" placeholder="Số điện thoại">
+							</div>
+
+							<div class="form-group">
+								<button class="btn btn-primary btn-lg btn-block">Đăng ký</button>						
+							</div>
+
+						</form>
+					</div>
+					<div class="modal-footer">
+						<div class="col-md-12">
+						</div>  
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="loginModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="myModalLabel">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						<h1 class="text-center">ĐĂNG NHẬP</h1>
+					</div>
+					<div class="modal-body">
+						<form class="form col-md-12 center-block">
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" placeholder="Tên đăng nhập">
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-control input-lg" placeholder="Mật khẩu">
+							</div>
+							<div class="form-group">
+								<button class="btn btn-primary btn-lg btn-block">Đăng nhập</button>								
+							</div>
+
+							<div class="modal-footer">
+								<a href="#" class="dk">Đăng ký</a><br>
+								<a href="#" class="dk">Quên mật khẩu?</a>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<div class="col-md-12">
+						</div>  
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid"" id="slide">
+			<br>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="img/1.jpg" alt="Chania" width="600" height="300">
+					</div>
+
+					<div class="item">
+						<img src="img/2.jpg" alt="Chania" width="600" height="300">
+					</div>
+
+					<div class="item">
+						<img src="img/3.jpg" alt="Flower" width="600" height="300">
+					</div>
+
+					<div class="item">
+						<img src="img/6.jpg" alt="Flower" width="600" height="300">
+					</div>
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid" id="list">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span> 
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav nav-pills nav-justified" id="menu-center">
+						<li><a href="index.html">Trang chủ</a></li>
+						<li><a href="gioithieu.html">Giới thiệu</a></li>
+						<li><a href="dulich.html">Du lịch Bình Định</a></li> 
+						<li><a href="sanpham.html">Sản phẩm rượu bầu đá</a></li>
+						<li><a href="quytrinh.html">Quy trình sản xuất rượu</a></li>
+						<li><a href="#">Tin tức</a></li>
+						<li><a href="lienhe.html">Liên hệ</a></li> 
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	
+	<section class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wow bounceInUp">
+				<h3>Rượu bầu đá bình sứ hồ lô</h3>
+				<div class="wow bounceInUp">
+					<img src="img/holo1.jpg" class="img-responsive center-block">
+					<p class="text-center">Giá bán : 100.000 VNĐ</p>
+					<h4 style="color: #8b0304;">Mô tả</h4>
+					<li>Rượu Bàu Đá là một đặc sản nổi tiếng của tỉnh Bình Định.<br>
+						Công dụng: uống, ngâm thuốc, làm quà tặng, quà lưu niệm...
+					</li><br/>
+					<h4 style="color: #8b0304;">Khuyến mãi đăc biệt</h4>
+					<li>Khi mua 2 chai được tăng thêm mực tẩm khô</li>
+					<h4 style="color: #8b0304;">Thông tin sản phẩm</h4>
+					<li>
+						Từ nguồn nước ngầm được tinh lọc trong lòng đất xứ Bàu Đá, kết hợp gạo và men tốt. Cùng với phương pháp nấu rượu truyền thống đã hình thành nên một loại rượu bàu đá đặc sản Bình Định thơm ngon, luôn đem đến cho mọi người hương vị nồng say và niềm vui nhớ mãi. Nếu uống rượu bàu đá một cách điều độ mỗi ngày chỉ một, hai ly nhỏ sẽ cho cảm giác thoải mái, dễ chịu, trị được chứng đau lưng, nhức mỏi, giúp quá trình tiêu hóa tốt hơn, lưu thông khí huyết, cơ thở khỏe mạnh.<br/>
+					</li><br/>
+					<li>Xuất xứ: Cơ sở rượu Bàu Đá Thành Tâm.</li>
+
+					<li>Thành phần: gạo, men, mạch nước ngầm tại làng Bàu Đá.</li>
+					<li>Nồng độ: 45 ± 2 độ.</li>
+					<li>Công dụng: Uống, Ngâm thuốc, Làm quà tặng, quà lưu niệm.....</li>
+					<li>Bảo quản: nơi khô ráo và thoáng mát,tránh ánh nắng măt trời.</li><br/>
+
+
+					<h4 style="color: #8b0304;">Cơ sở rượu Bàu Đá THÀNH TÂM</h4>
+					<li>Địa chỉ cũ: An Thành - Nhơn Lộc - An Nhơn - Bình Định</li>
+					<li>Địa chỉ mới: Thọ Lộc - Nhơn Thọ - An Nhơn - Bình Định</li>
+					<li>ĐT: (056) 383 7 384 - DĐ : 0914.140.178</li>
+					<li>Fax: (056) 383 7 384</li>
+					<li>Email: ruouthanhtam@gmail.com</li>
+					<li>Chứng nhận:  CNTCSP Số: 258/2009/YTBĐ-CNTC và Chỉ tiêu cơ sở: 01/2009/RBD-BĐ.</li>
+				</div>
+
+				<h4 style="color: #8b0304;">BÀI VIẾT VỀ NGUỒN GỐC RƯỢU BẦU ĐÁ BÌNH ĐỊNH</h4>
+				<li class="wow bounceInUp">Rượu bầu đá là một sản phẩm truyền thống của Bình Ðịnh đã nổi tiếng từ rất lâu. Tương truyền, từ nhiều thế kỷ trước, những người dân nghèo ờ gò Cù Lâm, thôn Bàu Ðá, xã Nhơn Lộc, huyện An Nhơn, trong khi tìm kế sinh nhai đã nấu rượu và sử dụng nguồn nước ngầm rỉ ra từ bàu đá tại thôn Bàu Ðá. Không ngờ những mẻ rượu được nấu từ nguồn nước này lại có một mùi hương rất đặc biệt, và nếu uống một cách điều độ mỗi ngày chỉ một, hai cốc nhỏ sẽ cho cảm giác thoải mái, dễ chịu, trị được chứng đau lưng, nhức mỏi, giúp cho quá trình tiêu hóa tốt hơn, cơ thể khỏe mạnh, cường tráng hơn.</li>
+				<img class="center-block img-responsive" src="img/abc.jpg">
+				<li class="wow bounceInUp">Và thế là từ đó, Rượu Bầu đá  trở thành một thứ “ngự tửu” được dùng để tiến vua, là loại rượu thường được dùng trong các buổi yến tiệc của vua chúa...</li>
+				<li class="wow bounceInUp">Ở xóm Bầu Đá (Nhơn Lộc - An Nhơn), hầu như nhà nào cũng nấu rượu, trong đó riêng thôn Cù Lâm có đến 95% hộ dân nấu rượu. Họ vừa để đáp ứng nhu cầu thị trường, vừa tận dụng hèm (bã rượu) để nuôi heo. Các hộ gia đình nấu rượu ở xóm Bầu Đá hầu hết đều kế thừa nghề truyền thống của cha ông để lại. Hiện nay ở xã Nhơn Lộc nơi nào có nguồn nước tốt đều có thể nấu được rượu ngon như của xóm Bàu Đá, bởi vậy người nấu rượu không còn giấu bí mật nghề nghiệp như trước. Hơn nữa, rượu ngon hay dở còn tùy thuộc vào kinh nghiệm và tay nghề người nấu.</li><br/>
+				<li class="wow bounceInUp">Nấu rượu cũng lắm công phu với nhiều công đoạn tỉ mỉ. Phải mất đến 6 ngày mới cho một mẻ rượu (một nồi nấu). Bắt đầu từ việc chọn gạo và nếp. Mỗi mẻ nấu sử dụng khoảng 7,2 kg gạo. Cơm đã trộn men ủ vào xô nhựa, sau 3 ngày cơm dậy mùi thơm của men rượu, chế vào 16 lít nước giếng trong, ủ tiếp 2 ngày, khi mở nắp xô mùi thơm ngào ngạt của cơm rượu đã chín cho ta cảm giác ngất ngây. Cho cơm rượu vào nồi đun trong 5 giờ, rượu được chưng cất qua ống tre nối từ nồi nấu sang nồi ngưng tụ (có dụng cụ chứa nước làm mát nồi ngưng). Một mẻ có thể cho ra 4 lít rượu nguyên chất.</li><br/>
+				<li class="wow bounceInUp">Nếu muốn rượu của những mẻ sau ngon hơn, sử dụng rượu bào (rượu ngưng tụ đã hết độ trong, chuyển sang màu trắng đục) đổ vào nồi nấu của mẻ sau, hương vị rượu càng tuyệt vời hơn. Thêm một kinh nghiệm để nhận biết rượu ngon là: Khi rót rượu ra ly phải rót từ từ, nếu rượu sủi bọt li ti thì đó là rượu thứ thiệt. Quả thật càng khám phá về rượu Bàu Đá càng thấy thích thú.</li><br/>
+				<li class="wow bounceInUp">Rượu Bàu Đá hiện đang là mặt hàng bán chạy ở thị trường trong và ngoài tỉnh. Nhiều doanh nghiệp đã mở đại lý thu mua rượu tại xã Nhơn Lộc và đã xuất khẩu rượu đặc sản này sang thị trường Mỹ. Về lâu dài hứa hẹn một thị trường rộng lớn cho rượu Bàu Đá tạo cơ hội cho người sản xuất tăng khối lượng sản phẩm, tăng doanh thu.</li><br/>
+				<li class="wow bounceInUp">Hiện nay,Rượu Bàu Đá Bình Định đã và đang được người tiêu dùng trong tỉnh, trong nước và một số du khách nước ngoài rất ưa chuộng, vì chất lượng của rượu Bàu Đá không hề thua kém so với một số loại rượu danh tiếng khác. Tuy nhiên, việc sản xuất và tiêu thụ rượu Bàu Đá trong những năm qua gặp nhiều khó khăn do sản xuất nhỏ lẻ, chủ yếu các hộ tự tìm mối tiêu thụ dẫn đến sự thiếu ổn định trong sản xuất, giá cả bấp bênh, ảnh hưởng lớn đến thu nhập.</li><br/>
+				<li class="wow bounceInUp">Phần lớn các hộ nấu rượu với mục đích thu hồi phụ phẩm để cung cấp thức ăn trong chăn nuôi. Bên cạnh đó, việc khó khăn trong đi lại do hạ tầng giao thông của làng nghề chưa có gì, mùa mưa thì sình lầy, mùa nắng thì bụi bặm, đã gây trở ngại cho khách du lịch khi muốn đến tham quan làng nghề.</li><br/>
+			</div>
+		</div>
+	</section>
+
+	<section class="container">
+		<ul class="nav nav-tabs">
+			<li class="active"><a data-toggle="tab" href="#home">Sản phẩm tương tự</a></li>
+			<li><a data-toggle="tab" href="#menu1">Các món ăn khuyến mãi</a></li>
+		</ul>
+
+		<div class="tab-content">
+			<div id="home" class="tab-pane fade in active">
+				<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 special">
+					<div class="list">
+						<div class="item">
+							<div class="image">
+								<img src="img/holo1.jpg">
+								<div class="image-overlay">
+									<a href="chitietruou.html"><span>Xem Chi Tiết</span></a>
+								</div>
+							</div>
+							<div class="description">
+								<a href="chitietruou.html">
+									<h3>Bình sứ hồ lô</h3>
+								</a>
+								<p>Giá:80.000VNĐ</p>
+								<span><a href="#"></a></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 special">
+					<div class="list">
+						<div class="item">
+							<div class="image">
+								<img src="img/holo2.jpg">
+								<div class="image-overlay">
+									<a href="chitietruou.html"><span>Xem Chi Tiết</span></a>
+								</div>
+							</div>
+							<div class="description">
+								<a href="chitietruou.html">
+									<h3>Bình sứ hồ lô</h3>
+								</a>
+								<p>Giá: 80.000 VNĐ</p>
+								<span><a href="chitietruou.html"></a></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 special">
+					<div class="list">
+						<div class="item">
+							<div class="image">
+								<img src="img/surong1.jpg">
+								<div class="image-overlay">
+									<a href="chitietruou.html"><span>Xem Chi Tiết</span></a>
+								</div>
+							</div>
+							<div class="description">
+								<a href="chitietruou.html">
+									<h3>Bình sứ rồng</h3>
+								</a>
+								<p>Giá: 100.000 VNĐ</p>
+								<span><a href="chitietruou.html"></a></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 special">
+					<div class="list">
+						<div class="item">
+							<div class="image">
+								<img src="img/surong2.jpg">
+								<div class="image-overlay">
+									<a href="chitietruou.html"><span>Xem Chi Tiết</span></a>
+								</div>
+							</div>
+							<div class="description">
+								<a href="chitietruou.html">
+									<h3>Bình sứ rồng</h3>
+								</a>
+								<p>Giá: 100.000 VNĐ</p>
+								<span><a href="chitietruou.html"></a></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 special">
+					<div class="list">
+						<div class="item">
+							<div class="image">
+								<img src="img/suthuyenrong1.jpg">
+								<div class="image-overlay">
+									<a href="chitietruou.html"><span>Xem Chi Tiết</span></a>
+								</div>
+							</div>
+							<div class="description">
+								<a href="chitietruou.html">
+									<h3>Bình sứ thuyền rồng</h3>
+								</a>
+								<p>Giá: 120.000 VNĐ</p>
+								<span><a href="chitietruou.html"></a></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 special">
+					<div class="list">
+						<div class="item">
+							<div class="image">
+								<img src="img/suthuyenrong2.jpg">
+								<div class="image-overlay">
+									<a href="chitietruou.html"><span>Xem Chi Tiết</span></a>
+								</div>
+							</div>
+							<div class="description">
+								<a href="chitietruou.html">
+									<h3>Bình sứ thuyền rồng</h3>
+								</a>
+								<p>Giá: 120.000 VNĐ</p>
+								<span><a href="#"></a></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 special">
+					<div class="list">
+						<div class="item">
+							<div class="image">
+								<img src="img/suvoichimtra1.jpg">
+								<div class="image-overlay">
+									<a href="chitietruou.html"><span>Xem Chi Tiết</span></a>
+								</div>
+							</div>
+							<div class="description">
+								<a href="chitietruou.html">
+									<h3>Bình sứ chim vòi trà</h3>
+								</a>
+								<p>Giá: 120.000 VNĐ</p>
+								<span><a href="chitietruou.html"></a></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 special">
+					<div class="list">
+						<div class="item">
+							<div class="image">
+								<img src="img/suvoichimtra2.jpg">
+								<div class="image-overlay">
+									<a href="chitietruou.html"><span>Xem Chi Tiết</span></a>
+								</div>
+							</div>
+							<div class="description">
+								<a href="chitietruou.html">
+									<h3>Bình sứ chim vòi trà</h3>
+								</a>
+								<p>Giá: 120.000 VNĐ</p>
+								<span><a href="chitietruou.html"></a></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+			<div id="menu1" class="tab-pane fade">
+				<div class="item col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="col-item">
+						<div class="images-container"> 
+							<a class="product-image" href="chitietdulich.html"> 
+								<img src="img/km1.jpg" class="img-responsive"/> 
+							</a>
+							<div class="item-type-collection">Khuyến mãi</div>
+						</div>
+						<div class="info" style="padding-top: 10px;">
+							<div class="info-inner-collection">
+								<div class="item-content">
+									<div class="price-box-collection">
+										<p class="special-price text-center"> <span class="price">Cá bò ngao</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="col-item">
+						<div class="images-container"> 
+							<a class="product-image" href="chitietdulich.html"> 
+								<img src="img/km2.jpg" class="img-responsive"/> 
+							</a>
+							<div class="item-type-collection">Khuyến mãi</div>
+						</div>
+						<div class="info" style="padding-top: 10px;">
+							<div class="info-inner-collection">
+								<div class="item-content">
+									<div class="price-box-collection">
+										<p class="special-price text-center"> <span class="price">Cá lao ngào</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="col-item">
+						<div class="images-container"> 
+							<a class="product-image" href="chitietdulich.html"> 
+								<img src="img/km3.jpg" class="img-responsive"/> 
+							</a>
+							<div class="item-type-collection">Khuyến mãi</div>
+						</div>
+						<div class="info" style="padding-top: 10px;">
+							<div class="info-inner-collection">
+								<div class="item-content">
+									<div class="price-box-collection">
+										<p class="special-price text-center"> <span class="price">Mực ngào ớt</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="col-item">
+						<div class="images-container"> 
+							<a class="product-image" href="chitietdulich.html"> 
+								<img src="img/km4.jpg" class="img-responsive"/> 
+							</a>
+							<div class="item-type-collection">Khuyến mãi</div>
+						</div>
+						<div class="info" style="padding-top: 10px;">
+							<div class="info-inner-collection">
+								<div class="item-content">
+									<div class="price-box-collection">
+										<p class="special-price text-center"> <span class="price">Cá chỉ vàng</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="col-item">
+						<div class="images-container"> 
+							<a class="product-image" href="chitietdulich.html"> 
+								<img src="img/km5.jpg" class="img-responsive"/> 
+							</a>
+							<div class="item-type-collection">Khuyến mãi</div>
+						</div>
+						<div class="info" style="padding-top: 10px;">
+							<div class="info-inner-collection">
+								<div class="item-content">
+									<div class="price-box-collection">
+										<p class="special-price text-center"> <span class="price">Cá cơm rút xương</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="col-item">
+						<div class="images-container"> 
+							<a class="product-image" href="chitietdulich.html"> 
+								<img src="img/km6.jpg" class="img-responsive"/> 
+							</a>
+							<div class="item-type-collection">Khuyến mãi</div>
+						</div>
+						<div class="info" style="padding-top: 10px;">
+							<div class="info-inner-collection">
+								<div class="item-content">
+									<div class="price-box-collection">
+										<p class="special-price text-center"> <span class="price">Cá đuối tẩm gia vị</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="col-item">
+						<div class="images-container"> 
+							<a class="product-image" href="chitietdulich.html"> 
+								<img src="img/km7.jpg" class="img-responsive"/> 
+							</a>
+							<div class="item-type-collection">Khuyến mãi</div>
+						</div>
+						<div class="info" style="padding-top: 10px;">
+							<div class="info-inner-collection">
+								<div class="item-content">
+									<div class="price-box-collection">
+										<p class="special-price text-center"> <span class="price">Cá lao tẩm gia vị</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="col-item">
+						<div class="images-container"> 
+							<a class="product-image" href="chitietdulich.html"> 
+								<img src="img/km8.jpg" class="img-responsive"/> 
+							</a>
+							<div class="item-type-collection">Khuyến mãi</div>
+						</div>
+						<div class="info" style="padding-top: 10px;">
+							<div class="info-inner-collection">
+								<div class="item-content">
+									<div class="price-box-collection">
+										<p class="special-price text-center"> <span class="price">Mực tẩm ăn liền</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="container-fluid about-us">
+		<div class="row">
+			<div class="container-fluid about-wrap">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<div class="video wow fadeInRight">
+							<div class="about-title">
+								<h3>rượu bầu đá</h3>
+							</div>
+							<div class="video-detail">
+								<div id="video1">
+									<iframe width="100%" src="https://www.youtube.com/embed/_lqpUvBGhMY" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div id="video2">
+									<iframe width="100%" src="https://www.youtube.com/embed/rwc0PH4jOJk" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div id="video3">
+									<iframe width="100%" src="https://www.youtube.com/embed/c9ZtTxKvR-M" frameborder="0" allowfullscreen></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<div class="facebook wow fadeInRight">
+							<div class="about-title">
+								<h3>biển quy nhơn</h3>
+							</div>
+							<div class="facebook-detail">
+								<iframe width="100%" height="310" src="https://www.youtube.com/embed/dP7kqnwT1xY" frameborder="0" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<div class="map wow fadeInRight">
+							<div class="about-title">
+								<h3>map</h3>
+							</div>
+							<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:300px;width:500px;'><div id='gmap_canvas' style='height:300px;width:500px;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="http://add-link-exchange.com/">add your link for free</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(13.7829673,109.21966339999994),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(13.7829673,109.21966339999994)});infowindow = new google.maps.InfoWindow({content:'<strong>Title</strong><br>Quy Nhơn,Bình Định,Việt Nam<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="container-fluid footer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12 col-xs-12 col-sm-12">
+					<div class="col-md-5">
+						<h4>Địa chỉ</h4>
+						<div class="chat-block">
+							<div class="address">
+								<a href="#">
+									<address> <span class="fa fa-map-marker"></span> Thôn Cù Lâm Bắc, xã Nhơn Lộc, thị xã An Nhơn, tỉnh Bình Định</address>
+									<address> <span class="fa fa-map-marker"></span> Đường An Dương Vương, Nguyễn Văn Cừ, Tp. Qui Nhơn, Bình Định</address>
+								</a>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<h4>Contact</h4>
+						<div class="contact">
+							<ul class="list-unstyled nav-list">
+								<li><a href="#"><span class="fa fa-phone"></span> Mr Quang: 098.5833.774</a></li>
+								<li><a href="#"><span class="fa fa-envelope"></span> quangprolathe@gmail.com</a></li>
+								<li><a href="#"><span class="fa fa-phone"></span> Mrs Thương: 094.5833.833</a></li>
+								<li><a href="#"><span class="fa fa-envelope"></span> thuong201293@gmail.com</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-3">
+						<h4>Về chúng tôi</h4>
+						<div class="we">
+							<ul class="list-unstyled nav-list">
+								<li><a href="#">Du lịch</a></li>
+								<li><a href="#">Rượu bàu đá</a></li>
+								<li><a href="#">Quy trinh sản xuất</a></li>
+								<li><a href="#">Liên hệ</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<span class="waves-effect"  id="btn-to-top">
+		<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+	</span>
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/quang.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
+</body>
+</html>
