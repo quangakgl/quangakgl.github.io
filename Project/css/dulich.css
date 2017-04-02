@@ -34,11 +34,11 @@
 }
 
 
-.main_box_why ul li {
+/*.main_box_why ul li {
 	padding-left: 30px;
 	background: url(../img/tick-icon.png) no-repeat;
 	line-height: 30px;
-}
+}*/
 
 .product-image img {
 	width: 100%;
@@ -48,3 +48,8 @@
 	color: red;
 }
 
+
+.item .col-item .images-container a img:hover {
+	opacity: 0.5;
+	transition: all 0.5s ease-in-out;
+}
