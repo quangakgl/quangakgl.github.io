@@ -25,9 +25,9 @@
     margin-bottom: 0;
 }
 
-#slide {
+/*#slide {
 	margin-top: -20px;
-}
+}*/
 
 .btn-success {
     margin-bottom: 15px;
@@ -216,7 +216,9 @@ li{
 
 		/*ABOUT US*/
 
-
+.about-us {
+	background-color: white;
+}
 
 .about-us .about-wrap .map .about-title,
 .about-us .about-wrap .facebook .about-title,
@@ -544,6 +546,7 @@ span.giamgia {
 	overflow: hidden;
 	padding-top: 50px;
 	padding-bottom: 50px;
+
 	background-color: white;
 }
 
@@ -709,6 +712,7 @@ span.giamgia {
 }
 
 
+
 /* ket thuc phan noi bat*/
 
 
@@ -825,7 +829,7 @@ span.giamgia {
 
 
 .gtbien .title img {
-	width: 30px;
+	width: 20px;
 	vertical-align: middle;
 	display: block;
 	margin: auto;
@@ -917,7 +921,7 @@ span.giamgia {
 
 /* phan trang tang chu*/
 
-.vll{
+/*.vll{
     background: url("../img/dannang.jpg")
 }
 
@@ -966,4 +970,4 @@ article{
 
 .item-content1:hover  {
 	background-color: pink;
-}
+}*/
