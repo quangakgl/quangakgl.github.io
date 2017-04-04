@@ -11,12 +11,26 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<header>
-		<nav class="navbar navbar-default">
-			<div class="container-fluid" id="login">
-				<!-- Brand and toggle get grouped for better mobile display -->
+	<header>
+		<div class="container bandau">
+			<div class="col-sm-12 col-xs-12 col-lg-12 col-md-12">
+				<div class="col-lg-6">
+					<div class="banner">
+						<a href="index.html"><img src="img/logo.png" class="img-responsive"></a>
+					</div>
+				</div>
+				<div class="col-lg-6 text-center headright">
+					<span class="infomat">CỔNG THÔNG TIN THƯƠNG MẠI DU LỊCH QUY NHƠN</span><br>
+					<span class="infomat">LÀNG NGHỀ RƯỢU BẦU ĐÁ</span><br>
+					<span class="infomat1">xunau.vn</span><br>
+				</div>
+			</div>
+		</div>
+
+		<!-- <nav class="navbar navbar-default">
+			<div class="container bandau" id="login">
 				
-				<a id="banner" href="dulich.html"><img src="img/logo2.png"></a><!--ảnh góc trái-->     
+				<a id="banner" href="dulich.html"><img src="img/logo2.png"></a>    
 				<ul id="register" class="nav navbar-nav navbar-right register ">
 					<form class="navbar-form navbar-left">
 						<div class="form-group">
@@ -26,11 +40,10 @@
 					</form>
 					<li> <a data-toggle="modal" href="#registerModal"> <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Đăng kí</a></li>
 					<li><a data-toggle="modal" href="#loginModal"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Đăng nhập</a></li>
-
 				</ul>
 
-			</div><!-- /.container-fluid -->
-		</nav>
+			</div>
+		</nav> -->
 
 		<div id="registerModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="myModalLabel">
 			<div class="modal-dialog">
@@ -107,9 +120,9 @@
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid"" id="slide">
+		<!-- <div class="container-fluid"" id="slide">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-				<!-- Indicators -->
+				
 				<ol class="carousel-indicators">
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 					<li data-target="#myCarousel" data-slide-to="1"></li>
@@ -117,7 +130,7 @@
 					<li data-target="#myCarousel" data-slide-to="3"></li>
 				</ol>
 
-				<!-- Wrapper for slides -->
+			
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
 						<img src="img/10.jpg" alt="Chania" width="600" height="300">
@@ -136,7 +149,7 @@
 					</div>
 				</div>
 
-				<!-- Left and right controls -->
+				
 				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 					<span class="sr-only">Previous</span>
@@ -146,30 +159,32 @@
 					<span class="sr-only">Next</span>
 				</a>
 			</div>
+		</div> -->
+		<div class="container">
+			<nav class="navbar navbar-default menupage">
+				<div id="list">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span> 
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav nav-pills nav-justified" id="menu-center">
+							<li><a href="index.html">Trang chủ</a></li>
+							<li><a href="gioithieu.html">Giới thiệu</a></li>
+							<li><a href="dulich.html">Du lịch Bình Định</a></li> 
+							<li><a href="sanpham.html">Rượu bầu đá</a></li>
+							<li><a href="quytrinh.html">Quy trình sản xuất</a></li>
+
+							<li><a href="lienhe.html">Liên hệ</a></li> 
+						</ul>
+					</div>
+				</div>
+			</nav>
 		</div>
 
-		<nav class="navbar navbar-default">
-			<div class="container-fluid" id="list">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span> 
-					</button>
-				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav nav-pills nav-justified" id="menu-center">
-						<li><a href="index.html">Trang chủ</a></li>
-						<li><a href="gioithieu.html">Giới thiệu</a></li>
-						<li><a href="dulich.html">Du lịch Bình Định</a></li> 
-						<li><a href="sanpham.html">Sản phẩm rượu bầu đá</a></li>
-						<li><a href="quytrinh.html">Quy trình sản xuất rượu</a></li>
-
-						<li><a href="lienhe.html">Liên hệ</a></li> 
-					</ul>
-				</div>
-			</div>
-		</nav>
 	</header>
 	<section class="container gioithieu">
 		<div class="container">
@@ -210,7 +225,7 @@
 		<div class="row">
 			<div class="container-fluid about-wrap">
 				<div class="row">
-
+					
 					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 						<div class="video wow fadeInRight">
 							<div class="about-title">
@@ -250,12 +265,11 @@
 							<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:300px;width:500px;'><div id='gmap_canvas' style='height:300px;width:500px;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="http://add-link-exchange.com/">add your link for free</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(13.7829673,109.21966339999994),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(13.7829673,109.21966339999994)});infowindow = new google.maps.InfoWindow({content:'<strong>Title</strong><br>Quy Nhơn,Bình Định,Việt Nam<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 						</div>
 					</div>
-
-
 				</div>
 			</div>
 		</div>
 	</section>
+
 
 	<footer class="container-fluid footer">
 		<div class="container-fluid">

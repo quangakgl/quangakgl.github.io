@@ -1,7 +1,7 @@
 /*#1C82D6 màu xanh*/
 .carousel-inner > .item > img,  .carousel-inner > .item > a > img {
 			width: 100%;
-			max-height: 600px;
+			max-height: 500px;
 			margin: auto;
 }
 
@@ -10,24 +10,55 @@
 	height: 1%;
 }
 
+.banner img {
+	width: 45%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 .menutrangchu ul li a {
 	color: #8b0304;
 }
 
+.infomat {
+	font-size: 20px;
+	color: #039be5;
+	font-family: mariaBold;
+}
+
+.infomat1 {
+	font-size: 18px;
+	color: #039be5;
+	font-family: mariaBold;
+}
+
+.headright {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.footer {
+	background-color: #222428;
+}
+
+.menupage {
+	background-color: #039be5;
+}
 .container-fluid{
-	background-color: #039be5;/*#f8f2dc;*/
+	/*background-color: #222428;*/   /*#f8f2dc;*/
 	overflow:hidden;
-	padding-right: 0px;
-    padding-left: 0px;
+	/*padding-right: 0px;
+    padding-left: 0px;*/
 }
 
 .navbar-default {
     margin-bottom: 0;
 }
 
-/*#slide {
-	margin-top: -20px;
-}*/
+#slide {
+	padding-left: 0px;
+	padding-right: 0px;
+	}
 
 .btn-success {
     margin-bottom: 15px;
@@ -59,7 +90,7 @@ text-decoration: none;
 }
 
 #list ul li a {
-	font-size: 16px;
+	/*font-size: 16px;*/
 	color: white;
 	font-family: mariaBold;
 	font-size: 19px;
@@ -218,6 +249,7 @@ li{
 
 .about-us {
 	background-color: white;
+	padding-bottom: 30px;
 }
 
 .about-us .about-wrap .map .about-title,
@@ -235,7 +267,7 @@ li{
 .about-us .about-wrap .video .about-title h3,
 .about-us .about-wrap .khach-hang .about-title h3 {
 	font-family: mariaBold;
-	color: white;
+	color: #222428;
 	font-size: 20px;
 	text-align: center;
 	text-transform: uppercase;
@@ -912,62 +944,6 @@ span.giamgia {
 	text-align: justify;
 }
 
-
-
-
-
-
-
-
-/* phan trang tang chu*/
-
-/*.vll{
-    background: url("../img/dannang.jpg")
+.bandau {
+	background-color:  white;
 }
-
-
-.itemm {
-	padding-top: 14%;
-	padding-bottom:28%;
-}
-
-
-article{
-    display: inline-block;
-    padding-top: 9%;
-    padding-bottom: 14%;
-    padding-left: 5.9%;
-
-}
-
-.cr3 i {
-	overflow: hidden;
-    display: block;
-    font-size: 48px;
-    line-height: 26px;
-    margin-bottom: 8px;
-    color: #ffffff;
-    padding-top: 55px;
-    position: relative;
-    top: 0px;
-    left:  140px;
-}
-
-.circlee {
-    text-align: center;
-
-    height: 135px;
-}
-
-.item-content1 {
-	width: 350px;
-	height:200px;
-	border:1px solid #ffffff;
-	border-radius: 50%;
-	background-color:#039be5 ;
-
-}
-
-.item-content1:hover  {
-	background-color: pink;
-}*/
