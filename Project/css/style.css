@@ -8,6 +8,8 @@
 #banner img {
 	width: 8%;
 	height: 1%;
+	padding-top: 4px;
+	padding-bottom: 4px;
 }
 
 .banner img {
@@ -56,8 +58,8 @@
 }
 
 #slide {
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 1px;
+	padding-right: 1px;
 	}
 
 .btn-success {
@@ -131,7 +133,7 @@ p {
 
 
 h2{
-	color: #8b0304;
+	color: #039be5;
 	font-size: 36px;
 	font-family: mariaBold;
     text-align: center;
@@ -139,7 +141,7 @@ h2{
 }
 
 h3 {
-	color: #8b0304;
+	color: #039be5;
 	font-size: 28px;
 	font-family: mariaBold;
     text-align: center;
@@ -178,7 +180,7 @@ h3 {
 
 span#btn-to-top {
 	border: 2px solid #f8f2dc;
-	background-color: #8b0304;
+	background-color: #039be5;
 	color: #f8f2dc;
 	width: 50px;
 	height: 50px;
@@ -196,8 +198,8 @@ span#btn-to-top {
 }
 span#btn-to-top:hover {
 	background-color: #f8f2dc;
-	color: #8b0304;
-	border: 2px solid #8b0304;
+	color: #039be5;
+	border: 2px solid #039be5;
 }
 span#btn-to-top:hover i {
 	transform: translateY(-2px);
@@ -218,6 +220,8 @@ li{
 	list-style-type: none;
 	text-align: justify;
 	line-height: 30px;
+	font-family: mariaBold;
+	font-size: 20px;
 }
 
 .bien img{
@@ -436,10 +440,10 @@ li{
 }
 
 
-li {
+/*li {
 	font-size: 16px;
 }
-
+*/
 
 .main-content p {
 	font-size: 16px;
@@ -571,6 +575,23 @@ span.giamgia {
     font-size: 13px;
 }
 
+
+span.sale {
+    background: url(../img/khuyenmai.gif) no-repeat;
+    height: 45px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-size: 100%;
+    padding: 0px 0px 0px 10px;
+    padding-right: 0;
+    width: 90px;
+    color: #fff;
+    line-height: 48px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
   /*Nổi bật*/
 
   .noibat {
@@ -585,7 +606,7 @@ span.giamgia {
 .noibat h2 {
 	font-family: mariaBold;
 	font-size: 36px;
-	color: #8b0304;
+	color: #039be5;
 	text-align: center;
 	font-weight: bold;
 }
@@ -603,7 +624,7 @@ span.giamgia {
 	content: "";
 	position: absolute;
 	height: 1px;
-	background-color: #8b0304;
+	background-color: #039be5;
 	width: calc((50%) - 20px);
 	display: inline-block;
 	position: absolute;
@@ -615,7 +636,7 @@ span.giamgia {
 	content: "";
 	position: absolute;
 	height: 1px;
-	background-color: #8b0304;
+	background-color: #039be5;
 	width: calc((50%) - 20px);
 	display: inline-block;
 	position: absolute;
@@ -631,7 +652,13 @@ span.giamgia {
 	margin: auto;
 }
 
-
+.noibat h4 {
+	font-family: mariaBold;
+	font-size: 24px;
+	color: #039be5;
+	text-align: center;
+	font-weight: bold;
+}
 
 
 
@@ -643,7 +670,7 @@ span.giamgia {
 }
 .special .item {
 	width: 100%;
-	border: 1px solid #8b0304;
+	border: 1px solid #039be5;
 	overflow: hidden;
 }
 .special .item .image {
@@ -671,7 +698,7 @@ span.giamgia {
 
 }
 .special .item .image .image-overlay a {
-	border: 1px solid #8b0304;
+	border: 1px solid #039be5;
 	border-radius: 3px;
 	position: absolute;
 	top: 50%;
@@ -684,7 +711,7 @@ span.giamgia {
 	overflow: hidden;
 	transition: all ease-in-out .5s;
 	text-transform: uppercase;
-	color: #8b0304;
+	color: #039be5;
 	cursor: pointer;
 	display: inline-block;
 	margin-bottom: 0px;
@@ -694,7 +721,7 @@ span.giamgia {
 }
 .special .item .image .image-overlay a:hover {
 	color: #fff;
-	background-color: #8b0304;
+	background-color: #039be5;
 }
 
 .special .item .image .image-overlay a span {
@@ -720,7 +747,7 @@ span.giamgia {
 .special .item .description h3 {
 	font-size: 18px;
 	text-align: center;
-	color: #8b0304;
+	color: #039be5;
 	margin-top: 10px;
 	margin-bottom: 5px;
 	font-family: mariaSemiBold;
@@ -730,13 +757,14 @@ span.giamgia {
 	text-align: center;
 	font-size: 14px;
 	margin-bottom: 0;
+	color: #039be5;
 }
 .special .item .description span a {
 	display: block;
 	position: absolute;
 	top: 10px;
 	right: 10px;
-	background-color: #8b0304;
+	background-color: #039be5;
 	border-radius: 50%;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -772,7 +800,7 @@ span.giamgia {
 }
 
 .col-home .col-item:hover .item-content {
-    height: 50%;
+    height: 55%;
     color:  #21ABCD;
 }
 
@@ -839,7 +867,7 @@ span.giamgia {
 	content: "";
 	position: absolute;
 	height: 1px;
-	background-color: #8b0304;
+	background-color: #039be5;
 	width: calc((50%) - 20px);
 	display: inline-block;
 	position: absolute;
@@ -851,7 +879,7 @@ span.giamgia {
 	content: "";
 	position: absolute;
 	height: 1px;
-	background-color: #8b0304;
+	background-color: #039be5;
 	width: calc((50%) - 20px);
 	display: inline-block;
 	position: absolute;
@@ -946,4 +974,21 @@ span.giamgia {
 
 .bandau {
 	background-color:  white;
+}
+
+.suckhoe img {
+	width: 100%;
+}
+
+.baiviet2 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.baiviet1 {
+	padding-top: 20px;
+}
+
+.tintuc4 {
+	padding-bottom: 30px;
 }

@@ -10,10 +10,10 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
-	<header>
-		<nav class="navbar navbar-default menupage">
-			<div class="container-fluid" id="login">
+<body style="background-color:whitesmoke;">
+	<header class="container-fluid">
+		<nav class="navbar navbar-default container menupage">
+			<div id="login">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				
 				<a id="banner" href="dulich.html"><img src="img/logo.png"></a><!--ảnh góc trái-->     
@@ -24,133 +24,144 @@
 						</div>
 						<button type="submit" class="btn btn-default">Tìm</button>
 					</form>
-					<li> <a data-toggle="modal" href="#registerModal"> <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Đăng kí</a></li>
-					<li><a data-toggle="modal" href="#loginModal"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Đăng nhập</a></li>
+					<li> 
+						<a data-toggle="modal" href="#registerModal"> <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Đăng kí</a>
+						<div id="registerModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="myModalLabel">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+										<h1 class="text-center">ĐĂNG KÝ TÀI KHOẢN</h1>
+									</div>
+									<div class="modal-body">
+										<form class="form col-md-12 center-block">
+											<div class="form-group">
+												<input type="text" class="form-control input-lg" placeholder="Tên đăng nhập">
+											</div>
+
+											<div class="form-group">
+												<input type="password" class="form-control input-lg" placeholder="Mật khẩu">
+											</div>
+
+											<div class="form-group">
+												<input type="password" class="form-control input-lg" placeholder="Xác nhận mật khẩu">
+											</div>
+
+											<div class="form-group">
+												<input type="text" class="form-control input-lg" placeholder="Email">
+											</div>
+
+											<div class="form-group">
+												<input type="text" class="form-control input-lg" placeholder="Số điện thoại">
+											</div>
+
+											<div class="form-group">
+												<button class="btn btn-primary btn-lg btn-block">Đăng ký</button>						
+											</div>
+
+										</form>
+									</div>
+									<div class="modal-footer">
+										<div class="col-md-12">
+										</div>  
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+
+
+					<li>
+						<a data-toggle="modal" href="#loginModal"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Đăng nhập</a>
+						<div id="loginModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="myModalLabel">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+										<h1 class="text-center">ĐĂNG NHẬP</h1>
+									</div>
+									<div class="modal-body">
+										<form class="form col-md-12 center-block">
+											<div class="form-group">
+												<input type="text" class="form-control input-lg" placeholder="Tên đăng nhập">
+											</div>
+											<div class="form-group">
+												<input type="password" class="form-control input-lg" placeholder="Mật khẩu">
+											</div>
+											<div class="form-group">
+												<button class="btn btn-primary btn-lg btn-block">Đăng nhập</button>								
+											</div>
+
+											<div class="modal-footer">
+												<a href="#" class="dk">Đăng ký</a><br>
+												<a href="#" class="dk">Quên mật khẩu?</a>
+											</div>
+										</form>
+									</div>
+									<div class="modal-footer">
+										<div class="col-md-12">
+										</div>  
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
 
 				</ul>
 
-			</div><!-- /.container-fluid -->
+			</div>
 		</nav>
-
-		<div id="registerModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="myModalLabel">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-						<h1 class="text-center">ĐĂNG KÝ TÀI KHOẢN</h1>
-					</div>
-					<div class="modal-body">
-						<form class="form col-md-12 center-block">
-							<div class="form-group">
-								<input type="text" class="form-control input-lg" placeholder="Tên đăng nhập">
-							</div>
+		
+		
+		<div class="container" id="slide">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-lg-12 col-md-12">
+					<div>
+						<div id="myCarousel" class="carousel slide" data-ride="carousel">
 							
-							<div class="form-group">
-								<input type="password" class="form-control input-lg" placeholder="Mật khẩu">
+							<ol class="carousel-indicators">
+								<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#myCarousel" data-slide-to="1"></li>
+								<li data-target="#myCarousel" data-slide-to="2"></li>
+								<li data-target="#myCarousel" data-slide-to="3"></li>
+							</ol>
+
+							
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<img src="img/banner1.jpg" alt="Chania" width="600" height="300">
+								</div>
+
+								<div class="item">
+									<img src="img/banner2.jpg" alt="Chania" width="600" height="300">
+								</div>
+
+								<div class="item">
+									<img src="img/banner3.jpg" alt="Flower" width="600" height="300">
+								</div>
+
+								<div class="item">
+									<img src="img/banner4.jpg" alt="Flower" width="600" height="300">
+								</div>
 							</div>
 
-							<div class="form-group">
-								<input type="password" class="form-control input-lg" placeholder="Xác nhận mật khẩu">
-							</div>
-
-							<div class="form-group">
-								<input type="text" class="form-control input-lg" placeholder="Email">
-							</div>
-
-							<div class="form-group">
-								<input type="text" class="form-control input-lg" placeholder="Số điện thoại">
-							</div>
-
-							<div class="form-group">
-								<button class="btn btn-primary btn-lg btn-block">Đăng ký</button>						
-							</div>
-
-						</form>
-					</div>
-					<div class="modal-footer">
-						<div class="col-md-12">
-						</div>  
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div id="loginModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="myModalLabel">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-						<h1 class="text-center">ĐĂNG NHẬP</h1>
-					</div>
-					<div class="modal-body">
-						<form class="form col-md-12 center-block">
-							<div class="form-group">
-								<input type="text" class="form-control input-lg" placeholder="Tên đăng nhập">
-							</div>
-							<div class="form-group">
-								<input type="password" class="form-control input-lg" placeholder="Mật khẩu">
-							</div>
-							<div class="form-group">
-								<button class="btn btn-primary btn-lg btn-block">Đăng nhập</button>								
-							</div>
-
-							<div class="modal-footer">
-								<a href="#" class="dk">Đăng ký</a><br>
-								<a href="#" class="dk">Quên mật khẩu?</a>
-							</div>
-						</form>
-					</div>
-					<div class="modal-footer">
-						<div class="col-md-12">
-						</div>  
+							
+							<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="container-fluid"" id="slide">
-			
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-				<!-- Indicators -->
-				<ol class="carousel-indicators">
-					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					<li data-target="#myCarousel" data-slide-to="1"></li>
-					<li data-target="#myCarousel" data-slide-to="2"></li>
-					<li data-target="#myCarousel" data-slide-to="3"></li>
-				</ol>
-
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner" role="listbox">
-					<div class="item active">
-						<img src="img/banner1.jpg" alt="Chania" width="600" height="300">
-					</div>
-
-					<div class="item">
-						<img src="img/banner2.jpg" alt="Chania" width="600" height="300">
-					</div>
-
-					<div class="item">
-						<img src="img/banner3.jpg" alt="Flower" width="600" height="300">
-					</div>
-
-					<div class="item">
-						<img src="img/banner4.jpg" alt="Flower" width="600" height="300">
-					</div>
-				</div>
-
-				<!-- Left and right controls -->
-				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
+			</div>	
 		</div>
 
-		<nav class="navbar navbar-default menupage">
-			<div class="container-fluid" id="list">
+		<nav class="navbar navbar-default container menupage">
+			<div id="list">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 						<span class="icon-bar"></span>
@@ -162,10 +173,10 @@
 					<ul class="nav nav-pills nav-justified" id="menu-center">
 						<li><a href="index.html">Trang chủ</a></li>
 						<li><a href="gioithieu.html">Giới thiệu</a></li>
-						<li><a href="dulich.html">Du lịch Bình Định</a></li> 
+						 
 						<li><a href="sanpham.html">Rượu bầu đá</a></li>
 						<li><a href="quytrinh.html">Quy trình sản xuất</a></li>
-
+						<li><a href="amthuc.html">Ẩm thực</a></li>
 						<li><a href="lienhe.html">Liên hệ</a></li> 
 					</ul>
 				</div>
@@ -184,6 +195,7 @@
 				<div class="list">
 					<div class="item">
 						<div class="image">
+							<span class="sale"></span>
 							<img src="img/holo1.jpg">
 							<div class="image-overlay">
 								<a href="chitietruou.html"><span>Xem Chi Tiết</span></a>
@@ -204,12 +216,14 @@
 				<div class="list">
 					<div class="item">
 						<div class="image">
+							<span class="sale"></span>
 							<img src="img/surong2.jpg">
 							<div class="image-overlay">
 								<a href="chitietruou.html"><span>Xem Chi Tiết</span></a>
 							</div>
 						</div>
 						<div class="description">
+							
 							<a href="chitietruou.html">
 								<h3>Bình sứ rồng</h3>
 							</a>
@@ -224,12 +238,14 @@
 				<div class="list">
 					<div class="item">
 						<div class="image">
+							<span class="sale"></span>
 							<img src="img/suthuyenrong1.jpg">
 							<div class="image-overlay">
 								<a href="chitietruou.html"><span>Xem Chi Tiết</span></a>
 							</div>
 						</div>
 						<div class="description">
+
 							<a href="chitietruou.html">
 								<h3>Bình sứ thuyền rồng</h3>
 							</a>
@@ -244,6 +260,7 @@
 				<div class="list">
 					<div class="item">
 						<div class="image">
+							<span class="sale"></span>
 							<img src="img/suthuyenrong2.jpg">
 							<div class="image-overlay">
 								<a href="chitietruou.html"><span>Xem Chi Tiết</span></a>
@@ -344,6 +361,160 @@
 	</section>
 
 	<section class="container gtbien">
+		<div class="row">
+			<div class="col-lg-12 col-xs-12 col-sm-12 position-re">
+				<div class="title-bg center">
+					<h2>CÁC MÓN ĂN HẤP DẪN</h2>
+					<div class="title">
+						<img src="img/title.png">
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 beachqn wow bounceInUp">
+					<div class="col-home">
+						<div class="col-item">
+							<div class="image-container">
+								<a href="chitietdulich.html">
+									<img src="img/ta1.jpg" class="img-responsive" alt="">
+								</a>
+							</div>
+							<div class="info">
+								<div class="info-inner">
+									<div class="item-content">
+										<span class="flag"></span>
+										<div class="item-title"><a href="chitietdulich.html">Cá chiên chua ngọt</a></div>
+										<div class="item-type">
+											<a href="chitietdulich.html">Món cá hấp rất dễ làm này mang đến cho bạn hương vị đậm đà, thơm ngon của tương, cà và nấm. Ăn với các loại rau cuốn hay cơm trắng đều ngon. Hãy cùng chúng tôi vào bếp làm món ngon này nhé!
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 beachqn wow bounceInUp">
+					<div class="col-home">
+						<div class="col-item">
+							<div class="image-container">
+								<a href="chitietdulich.html">
+									<img src="img/ta2.jpg" class="img-responsive" alt="">
+								</a>
+							</div>
+							<div class="info">
+								<div class="info-inner">
+									<div class="item-content">
+										<span class="flag"></span>
+										<div class="item-title"><a href="chitietdulich.html">Mực xào xã ớt</a></div>
+										<div class="item-type">
+											<a href="chitietdulich.html">Chả mực mới rán xong đang còn nóng mà  ăn kèm với bánh cuốn hoặc xôi nếp mới thì không thể chê vào đâu được.
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 beachqn wow bounceInUp">
+					<div class="col-home">
+						<div class="col-item">
+							<div class="image-container">
+								<a href="chitietdulich.html">
+									<img src="img/ta3.jpg" class="img-responsive" alt="">
+								</a>
+							</div>
+							<div class="info">
+								<div class="info-inner">
+									<div class="item-content">
+										<span class="flag"></span>
+										<div class="item-title"><a href="chitietdulich.html">Cá chiên sào chua ngọt</a></div>
+										<div class="item-type">
+											<a href="chitietdulich.html">Cá chiên giòn sốt chua ngọt với cách làm đơn giản nhưng đảm bảo khiến bàn ăn của bạn sẽ hết veo bởi hương vị thơm ngon hấp dẫn tới không ngờ.
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 beachqn wow bounceInUp">
+					<div class="col-home">
+						<div class="col-item">
+							<div class="image-container">
+								<a href="chitietdulich.html">
+									<img src="img/ta4.jpg" class="img-responsive" alt="">
+								</a>
+							</div>
+							<div class="info">
+								<div class="info-inner">
+									<div class="item-content">
+										<div class="item-title"><a href="chitietdulich.html">Ốc xào tỏi ớt</a></div>
+										<div class="item-type">
+											<a href="chitietdulich.html">Ốc xào sả ớt vừa có vị cay lại có vị thơm, lạ miệng, đặc biệt trong những ngày mưa sang thu vào dịp cuối tuần,  mọi người ngồi quay quần  với nhau ăn thì thật thích. 
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 beachqn wow bounceInUp">
+					<div class="col-home">
+						<div class="col-item">
+							<div class="image-container">
+								<a href="chitietdulich.html">
+									<img src="img/ta5.jpg" class="img-responsive" alt="">
+								</a>
+							</div>
+							<div class="info">
+								<div class="info-inner">
+									<div class="item-content">
+										<div class="item-title"><a href="chitietdulich.html">Trai xào lá lốt</a></div>
+										<div class="item-type">
+											<a href="chitietdulich.html">Thịt trai có vị ngọt, vừa dai lại giòn hòa quyện cùng hương thơm của lá lốt xen lẫn vị mặn, ngọt của gia vị lưu mãi nơi đầu lưỡi, ngon nhất là ăn kèm món này với bánh tráng nướng.
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 beachqn wow bounceInUp">
+					<div class="col-home">
+						<div class="col-item">
+							<div class="image-container">
+								<a href="chitietdulich.html">
+									<img src="img/ta6.jpg" class="img-responsive" alt="">
+								</a>
+							</div>
+							<div class="info">
+								<div class="info-inner">
+									<div class="item-content">
+										<div class="item-title"><a href="chitietdulich.html"> Cá rán giòn </a></div>
+										<div class="item-type">
+											<a href="chitietdulich.html">Cá rán là món ăn truyền thống và phổ biến trong bữa cơm gia đình hằng ngày nhưng nó ngon hơn khi được chế biến dưới tay của những đầu bếp tài ba. 
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- <section class="container gtbien">
 		<div class="row">
 			<div class="col-lg-12 col-xs-12 col-sm-12 position-re">
 				<div class="title-bg center">
@@ -494,6 +665,43 @@
 					</div>
 				</div>
 			</div>
+		</div>
+	</section> -->
+
+	<section class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 noibat">
+					<div class="title-bg center">
+						<h4>TIN TỨC VÀ BLOG</h4>
+						<div class="title">
+							<img class="img-responsive" src="img/title.png">
+						</div>
+					</div>
+					<div class="col-md-4 col-lg-4 col-xs-12 col-sm-6 suckhoe">
+						<img class="img-responsive" src="img/remy2.jpg">
+						<h5>CÔNG DỤNG BẤT NGỜ CỦA RƯỢU</h5>
+						<li style="font-size: 14px;opacity: 0.5;">Đăng bởi: Nguyễn Xuân Quang | 05/4/2017 | 2 bình luận</li>
+						<li style="font-size: 18px;">Rượu vốn bị "ghét oan" vì được mặc định là nguyên nhân gây ra nhiều bệnh. Nếu bí mật tuyệt vời này được tiết lộ với cách dùng đúng, bạn sẽ nhanh chóng "mê" rượu ngay</li>
+						<a href="tintuc.html">Đọc thêm</a>
+					</div>
+					<div class="col-md-4 col-lg-4 col-xs-12 col-sm-6 suckhoe">
+						<img class="img-responsive" src="img/remy.jpg">
+						<h5>RƯỢU LÀ VÀNG NGỌC LỤC BẢO</h5>
+						<li style="font-size: 14px;opacity: 0.5;">Đăng bởi: Nguyễn Xuân Quang | 05/2/2017 | 6 bình luận</li>
+						<li style="font-size: 18px;">Trong nhiều năm, Rượu được biết đến như thứ thuần chất  hàng đầu, được dùng để chế thêm nhiều dòng rượu khác nhờ chất lượng tuyệt vời.</li>
+						<a href="tintuc.html">Đọc thêm</a>
+					</div>
+					<div class="col-md-4 col-lg-4 col-xs-12 col-sm-6 suckhoe">
+						<img class="img-responsive" src="img/remy1.jpg">
+						<h5>BÍ QUYẾT UỐNG RƯỢU ĐỂ BẢO VỆ SỨC KHỎE</h5>
+						<li style="font-size: 14px;opacity: 0.5;">Đăng bởi: Nguyễn Xuân Quang | 02/3/2017 | 4 bình luận</li>
+						<li style="font-size: 18px;">Trước khi uống rượu, hãy chủ động ăn trước một ít thức ăn nhiều dầu mỡ. Chúng sẽ tạo thành một lớp áo che kín mặt trong ruột, giảm sự thẩm thấu của rượu qua thành ruột vào máu.</li>
+						<a href="tintuc.html">Đọc thêm</a>
+					</div>
+				</div>
+				
+			</div>			
 		</div>
 	</section>
 
