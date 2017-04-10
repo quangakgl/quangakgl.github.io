@@ -992,3 +992,7 @@ span.sale {
 .tintuc4 {
 	padding-bottom: 30px;
 }
+
+.baiviet2:hover {
+	transform: scale(1.1);
+}
